@@ -1,0 +1,96 @@
+/* Navbar styling */
+.navbar {
+    background-color: #a2d2ff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Space between the logo/title and navigation links */
+    align-items: center;
+  }
+  
+  /* Styling for the logo and title container */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .logo {
+    
+    width: 100px;  /* Adjust logo size */
+    height: 100px;  /* Adjust logo size */
+    margin-right: 10px; /* Space between logo and title */
+    /* backgroud:#a2d2ff; */
+  }
+  
+  .title {
+    color: rgb(7, 7, 7);
+    font-size: 50px;
+    margin: 0;
+    margin-left: 15px;
+  }
+  
+  /* Navbar links */
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-list li {
+    display: inline;
+  }
+  
+  .navbar-list a {
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 0 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-list a:hover {
+    color:whitesmoke;
+    
+  }
+  
+  /* Button-like styling for the Registration link */
+  .button-link {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    transition: background-color 0.3s;
+    font-size: 18px;
+  }
+  
+  .button-link:hover {
+    background-color: #bde0fe;
+    cursor: pointer;
+  }
+  
+  /* Responsive design: Stack items in a column on smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar-list {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+    .navbar-list a {
+      margin: 10px 0;
+    }
+  
+    .navbar-logo {
+      margin-bottom: 15px; /* Space between logo/title and navigation links */
+    }
+  }

@@ -1,0 +1,33 @@
+/* Place Details Page Styles */
+.place-details {
+    text-align: center;
+    padding: 50px;
+    background: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  /* Place Title */
+  .place-details h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #0a0a0a;
+    
+  }
+  
+  /* Image Styling */
+  .detail-image {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  /* Description */
+  .place-details p {
+    font-size: 18px;
+    color:black;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+  }

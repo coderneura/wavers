@@ -1,0 +1,62 @@
+/* General form styling */
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #90c9fe;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Form title */
+  .form-container h2 {
+    color: #080808;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  form input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #0077b6;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #c9e6fe;
+  }
+  
+  /* Submit button */
+  form button {
+    width: 90%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #0077b6;
+    color: rgb(12, 12, 12);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #bde0fe;
+  }
+  
+  /* Links */
+  .link {
+    margin-top: 15px;
+    color: #007bff;
+  }
+  
+  .link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .link a:hover {
+    text-decoration: underline;
+  }
